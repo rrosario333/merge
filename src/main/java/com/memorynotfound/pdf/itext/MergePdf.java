@@ -18,7 +18,7 @@ public class MergePdf {
 
     public static void main(String... args) throws IOException, DocumentException {
     	List<PdfReader> files = new ArrayList<PdfReader>(Arrays.asList(
-        		new PdfReader("D:/pdf/pdf1.pdf"),
+        		new PdfReader("D:/pdf/pdf6.pdf"),
         		new PdfReader("D:/pdf/pdf2.pdf"),
         		new PdfReader("D:/pdf/pdf3.pdf"),
         		new PdfReader("D:/pdf/pdf5.pdf")
